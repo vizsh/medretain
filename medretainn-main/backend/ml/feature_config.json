@@ -1,0 +1,27 @@
+{
+  "feature_names": [
+    "days_since_last_visit",
+    "no_show_rate",
+    "total_appointments",
+    "completed_visits",
+    "satisfaction_score",
+    "is_chronic",
+    "visit_frequency_per_year",
+    "completion_rate",
+    "cancelled_rate",
+    "engagement_score",
+    "payment_reliability",
+    "avg_bill_per_visit",
+    "lifetime_value_normalized",
+    "age",
+    "age_group",
+    "days_since_registration",
+    "tenure_months",
+    "recent_no_show",
+    "high_no_show_risk",
+    "payment_pending_risk"
+  ],
+  "n_features": 20,
+  "trained_on": "2026-03-18T16:20:09.061990",
+  "n_samples": 2200
+}

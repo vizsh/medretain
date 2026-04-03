@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.9409090909090909,
+  "cv_mean": 0.9215909090909091,
+  "cv_std": 0.014772727272727264,
+  "cv_scores": [
+    0.9119318181818182,
+    0.9289772727272727,
+    0.9460227272727273,
+    0.9176136363636364,
+    0.9034090909090909
+  ],
+  "trained_on": "2026-03-18T16:20:09.062682",
+  "feature_importances": {
+    "days_since_last_visit": 0.5893760039019296,
+    "no_show_rate": 0.056615127434027,
+    "total_appointments": 0.05703826383370938,
+    "completed_visits": 0.0013789068553355405,
+    "satisfaction_score": 0.06647647213386432,
+    "is_chronic": 0.04640788622125451,
+    "visit_frequency_per_year": 0.02005229700888395,
+    "completion_rate": 0.004975474472994965,
+    "cancelled_rate": 0.0047574811720746376,
+    "engagement_score": 0.09485718386310177,
+    "payment_reliability": 0.006863502628528031,
+    "avg_bill_per_visit": 0.011588616579821631,
+    "lifetime_value_normalized": 0.010019625055088917,
+    "age": 0.00911460851895287,
+    "age_group": 0.0007440018244701139,
+    "days_since_registration": 0.006096878404645337,
+    "tenure_months": 0.00483581795600563,
+    "recent_no_show": 0.00028666089167760333,
+    "high_no_show_risk": 0.00798568668029784,
+    "payment_pending_risk": 0.0005295045633365474
+  }
+}

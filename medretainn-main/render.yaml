@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: medretain-messaging-backend
+    env: node
+    plan: free
+    region: oregon
+    branch: main
+    repo: https://github.com/vizsh/hims_crm
+
+    # Build configuration
+    buildCommand: cd messaging-service && npm install
+    startCommand: cd messaging-service && npm start
+
+    # Environment variables
+    envVars:
+      - key: TWILIO_ACCOUNT_SID
+        value: YOUR_ACCOUNT_SID
+      - key: TWILIO_AUTH_TOKEN
+        value: YOUR_AUTH_TOKEN
+      - key: TWILIO_WHATSAPP_FROM
+        value: whatsapp:+YOUR_TWILIO_NUMBER
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: FRONTEND_URL
+        value: https://hims-crm-vercel.vercel.app
+      - key: LOG_LEVEL
+        value: info
+
+    # Health check
+    healthCheckPath: /health
+    healthCheckInterval: 30

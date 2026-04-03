@@ -1,0 +1,12 @@
+node_modules
+.git
+.env
+.env.local
+.env.*.local
+backend
+messaging-service
+dist
+.next
+out
+*.log
+.DS_Store
